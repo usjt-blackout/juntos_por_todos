@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">juntos_por_todos</string>
+    <string name="bc_organizacoes_cruz_vermelha_americana">Cruz Vermelha Americana</string>
+    <string name="bc_organizacoes_acnur">ACNUR</string>
+    <string name="bc_organizacoes_unitec_way_worldwide">Unitec Way Worldwide</string>
+    <string name="bc_organizacoes_feeding_americana">Feeding Americana</string>
 </resources>
