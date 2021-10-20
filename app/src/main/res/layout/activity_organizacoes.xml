@@ -65,7 +65,9 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/cruzvermelha" />
+                        android:src="@drawable/cruzvermelha"
+                        android:clickable="true"
+                        />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -90,7 +92,9 @@
                         android:id="@+id/acnur_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/acnur" />
+                        android:src="@drawable/acnur"
+                        android:clickable="true"
+                        />
 
 
                 </LinearLayout>
@@ -117,7 +121,9 @@
                         android:id="@+id/united_way_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/unitedway" />
+                        android:src="@drawable/unitedway"
+                        android:clickable="true"
+                        />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -142,7 +148,9 @@
                         android:id="@+id/americares_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/americares" />
+                        android:src="@drawable/americares"
+                        android:clickable="true"
+                        />
 
                 </LinearLayout>
 
@@ -168,7 +176,9 @@
                         android:id="@+id/boys_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/bsoa" />
+                        android:src="@drawable/bsoa"
+                        android:clickable="true"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
