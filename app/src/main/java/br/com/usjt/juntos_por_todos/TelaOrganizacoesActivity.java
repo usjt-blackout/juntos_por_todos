@@ -7,6 +7,12 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import br.com.usjt.juntos_por_todos.mapas.Mapa_ACNUR;
+import br.com.usjt.juntos_por_todos.mapas.Mapa_Americares;
+import br.com.usjt.juntos_por_todos.mapas.Mapa_Boy;
+import br.com.usjt.juntos_por_todos.mapas.Mapa_Cruz_Vermelha;
+import br.com.usjt.juntos_por_todos.mapas.Mapa_UTW;
+
 public class TelaOrganizacoesActivity extends AppCompatActivity {
 
     private ImageView cruzVermelha;
@@ -27,7 +33,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         cruzVermelha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, MainActivity.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_Cruz_Vermelha.class);
                 startActivity(intent);
                 finish();
             }
@@ -36,7 +42,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         americares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, MainActivity.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_Americares.class);
                 startActivity(intent);
                 finish();
             }
@@ -45,7 +51,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         acnur.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, MainActivity.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_ACNUR.class);
                 startActivity(intent);
                 finish();
             }
@@ -54,7 +60,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         united.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, MainActivity.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_UTW.class);
                 startActivity(intent);
                 finish();
             }
@@ -62,11 +68,15 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         boys.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, MainActivity.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_Boy.class);
                 startActivity(intent);
                 finish();
             }
         });
     }
+
+
+
+
 }
 
