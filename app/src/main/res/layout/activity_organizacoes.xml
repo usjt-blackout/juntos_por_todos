@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3"
+    android:background="#EDEDED"
 
     tools:context=".TelaOrganizacoesActivity">
 
@@ -14,23 +14,30 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="40dp"
+            android:layout_width="410dp"
+            android:layout_height="75dp"
             android:layout_marginRight="20dp"
-            android:gravity="center">
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:background="#C4C4C4">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/helplifelogo" />
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif-condensed"
                 android:text="Organizações"
-                android:textAllCaps="true"
-                android:textColor="@color/black"
-                android:textSize="42sp">
+                android:textColor="#616161"
+                android:textSize="32sp">
 
             </TextView>
         </RelativeLayout>
