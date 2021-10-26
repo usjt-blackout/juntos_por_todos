@@ -39,7 +39,7 @@ public class Mapa_UTW extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng united = new LatLng(38.812093399999995, -77.0405248);
+        LatLng united = new LatLng(-23.574236449719404, -46.64355554444178);
         mMap.addMarker(new MarkerOptions().position(united).title("United Way Worldwide"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(united));
     }

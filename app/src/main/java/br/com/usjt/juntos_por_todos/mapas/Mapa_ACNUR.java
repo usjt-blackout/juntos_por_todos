@@ -39,7 +39,7 @@ public class Mapa_ACNUR extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng acnur = new LatLng(-23.548496, -46.6325261);
+        LatLng acnur = new LatLng(-23.548239600993078, -46.632717097747516);
         mMap.addMarker(new MarkerOptions().position(acnur).title("Agência da ONU para refugiados"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(acnur));
     }

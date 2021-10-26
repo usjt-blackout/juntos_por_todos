@@ -15,29 +15,28 @@
 
         <RelativeLayout
             android:layout_width="410dp"
-            android:layout_height="75dp"
+            android:layout_height="85dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="center"
-            android:background="#C4C4C4">
+            android:layout_marginBottom="55dp"
+            android:background="#C4C4C4"
+            android:gravity="center">
 
             <ImageView
-                android:layout_width="64dp"
-                android:layout_height="56dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/helplifelogo" />
+                android:layout_width="72dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/logojuntos" />
 
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="95dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="20dp"
+                android:layout_width="336dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="23dp"
                 android:text="Organizações"
                 android:textColor="#616161"
-                android:textSize="32sp">
+                android:textSize="30dp">
 
             </TextView>
         </RelativeLayout>
@@ -55,9 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="50dp">
+                android:layout_margin="12dp">
 
 
                 <LinearLayout
@@ -72,9 +69,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/cruzvermelha"
                         android:clickable="true"
-                        />
+                        android:src="@drawable/cruzvermelha" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -84,9 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="50dp">
+                android:layout_margin="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -99,9 +93,8 @@
                         android:id="@+id/acnur_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/acnur"
                         android:clickable="true"
-                        />
+                        android:src="@drawable/acnur" />
 
 
                 </LinearLayout>
@@ -113,9 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="50dp">
+                android:layout_margin="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -128,9 +119,8 @@
                         android:id="@+id/united_way_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/unitedway"
                         android:clickable="true"
-                        />
+                        android:src="@drawable/unitedway" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -140,9 +130,7 @@
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="50dp">
+                android:layout_margin="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -155,9 +143,8 @@
                         android:id="@+id/americares_logo"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/americares"
                         android:clickable="true"
-                        />
+                        android:src="@drawable/americares" />
 
                 </LinearLayout>
 
@@ -168,9 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="50dp">
+                android:layout_margin="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -180,15 +165,29 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:id="@+id/boys_logo"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/bsoa"
+                        android:id="@+id/feeding_logo"
+                        android:layout_width="94dp"
+                        android:layout_height="86dp"
                         android:clickable="true"
-                        />
+                        android:focusable="true"
+                        android:src="@drawable/feeding" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
         </GridLayout>
+
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="#C4C4C4"
+            android:text="Voltar"
+            android:textColor="@color/black"
+            android:clickable="true"
+            android:focusable="true" />
+
+
     </LinearLayout>
 </ScrollView>

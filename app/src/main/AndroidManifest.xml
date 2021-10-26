@@ -38,7 +38,7 @@
         <activity android:name=".TelaOrganizacoesActivity" />
         <activity android:name=".mapas.Mapa_ACNUR" />
         <activity android:name=".mapas.Mapa_Cruz_Vermelha" />
-        <activity android:name=".mapas.Mapa_Boy" />
+        <activity android:name=".mapas.Mapa_FeedingAmerica" />
         <activity android:name=".mapas.Mapa_UTW" />
         <activity android:name=".mapas.Mapa_Americares" />
 

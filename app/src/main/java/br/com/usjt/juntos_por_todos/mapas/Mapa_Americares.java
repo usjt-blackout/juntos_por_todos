@@ -39,7 +39,7 @@ public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng americares = new LatLng(41.0658679, -73.51909789999999);
+        LatLng americares = new LatLng(41.06618178170719, -73.51917885964222);
         mMap.addMarker(new MarkerOptions().position(americares).title("Americares Foundation"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(americares));
         }

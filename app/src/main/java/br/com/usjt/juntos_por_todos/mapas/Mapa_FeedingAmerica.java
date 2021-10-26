@@ -15,7 +15,7 @@ import br.com.usjt.juntos_por_todos.R;
 import br.com.usjt.juntos_por_todos.databinding.ActivityMapsBinding;
 
 
-public class Mapa_Boy extends FragmentActivity implements OnMapReadyCallback {
+public class Mapa_FeedingAmerica extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
@@ -34,13 +34,13 @@ public class Mapa_Boy extends FragmentActivity implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
     }
 
-@Override
-public void onMapReady(GoogleMap googleMap) {
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng boy = new LatLng(41.3252637, -88.34338190000001);
-        mMap.addMarker(new MarkerOptions().position(boy).title("Boy Scouts Of América"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(boy));
-        }
-        }
+        LatLng feed = new LatLng(41.8864887203722, -87.62662915126162);
+        mMap.addMarker(new MarkerOptions().position(feed).title("Feeding America"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(feed));
+    }
+}
