@@ -9,15 +9,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button botao;
+    private Button botaoOrganizacoes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        botao = findViewById(R.id.redirecionaOrganizacoes);
+        botaoOrganizacoes = findViewById(R.id.redirecionaOrganizacoes);
 
-        botao.setOnClickListener(new View.OnClickListener() {
+        botaoOrganizacoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, TelaOrganizacoesActivity.class);

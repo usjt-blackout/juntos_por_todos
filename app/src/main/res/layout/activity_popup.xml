@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EDEDED"
 
-    tools:context=".TelaPopupActivity">
+    tools:context=".popups.TelaPopupAcnur">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,33 +15,27 @@
 
         <RelativeLayout
             android:layout_width="410dp"
-            android:layout_height="75dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="center"
-            android:background="#C4C4C4">
+            android:layout_height="85dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="55dp"
+            android:background="#C4C4C4"
+            android:gravity="center">
 
             <ImageView
-                android:layout_width="64dp"
-                android:layout_height="56dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/helplifelogo" />
-
+                android:layout_width="72dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/logohelplife" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="95dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="20dp"
-                android:text="Organizações"
+                android:layout_width="336dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="30dp"
+                android:text="Agência da ONU para Refugiados"
                 android:textColor="#616161"
-                android:textSize="32sp">
-
-            </TextView>
-
-
+                android:textSize="20sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -57,11 +51,10 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="55dp"
+                android:layout_marginStart="56dp"
                 android:layout_marginTop="40dp"
-                android:layout_marginEnd="55dp"
-                android:layout_marginBottom="80dp"
-                app:srcCompat="@drawable/Imagem1" />
+                android:layout_marginEnd="53dp"
+                android:layout_marginBottom="80dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -94,9 +87,9 @@
                 android:layout_marginBottom="160dp"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="O ACNUR, a Agência da ONU para Refugiados, trabalha para assegurar que qualquer pessoa, em caso de necessidade, possa exercer o direito de buscar e receber refúgio em outro país e, caso deseje, regressar ao seu país de origem de forma segura. Conduz e coordena ações internacionais para proteção dos refugiados e a busca por soluções duradouras para seus problemas. Fornece abrigo, água potável e assistência médica vital a refugiados e deslocados internos em diversos países do mundo."
+                android:text="@string/descricao_acnur"
                 android:textColor="#000000"
-                android:textSize="16sp"></TextView>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -111,9 +104,9 @@
                 android:layout_marginBottom="128dp"
                 android:background="#C4C4C4"
                 android:gravity="center"
-                android:text="Site"
+                android:text="@string/site"
                 android:textColor="#000000"
-                android:textSize="18sp"></TextView>
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -128,9 +121,9 @@
                 android:layout_marginBottom="95dp"
                 android:background="#5E5E5E"
                 android:gravity="center"
-                android:text="Notícias"
+                android:text="@string/noticias"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"></TextView>
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -147,9 +140,10 @@
                 android:gravity="center"
                 android:text="Como Doar"
                 android:textColor="#000000"
-                android:textSize="18sp"></TextView>
+                android:textSize="18sp" />
 
             <TextView
+                android:id="@+id/mapa"
                 android:layout_width="wrap_content"
                 android:layout_height="31dp"
                 android:layout_alignStart="@+id/imageView"
@@ -161,10 +155,12 @@
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="24dp"
                 android:background="#5E5E5E"
+                android:clickable="true"
+                android:focusable="true"
                 android:gravity="center"
-                android:text="Mapa"
+                android:text="@string/mapa"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"></TextView>
+                android:textSize="18sp" />
 
 
         </RelativeLayout>
@@ -172,5 +168,4 @@
     </LinearLayout>
 
 
-
-</ScrollView>
+</LinearLayout>

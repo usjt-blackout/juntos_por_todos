@@ -41,6 +41,7 @@
         <activity android:name=".mapas.Mapa_FeedingAmerica" />
         <activity android:name=".mapas.Mapa_UTW" />
         <activity android:name=".mapas.Mapa_Americares" />
+        <activity android:name=".popups.TelaPopupAcnur" />
 
 
     </application>

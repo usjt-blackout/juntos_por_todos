@@ -5,4 +5,8 @@
     <string name="bc_organizacoes_unitec_way_worldwide">Unitec Way Worldwide</string>
     <string name="bc_organizacoes_feeding_americana">Feeding Americana</string>
     <string name="voltar">Voltar</string>
+    <string name="descricao_acnur">O ACNUR, a Agência da ONU para Refugiados, trabalha para assegurar que qualquer pessoa, em caso de necessidade, possa exercer o direito de buscar e receber refúgio em outro país e, caso deseje, regressar ao seu país de origem de forma segura. Conduz e coordena ações internacionais para proteção dos refugiados e a busca por soluções duradouras para seus problemas. Fornece abrigo, água potável e assistência médica vital a refugiados e deslocados internos em diversos países do mundo.</string>
+    <string name="mapa">Mapa</string>
+    <string name="noticias">Notícias</string>
+    <string name="site">Site</string>
 </resources>

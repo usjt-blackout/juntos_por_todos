@@ -8,11 +8,11 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import br.com.usjt.juntos_por_todos.mapas.Mapa_ACNUR;
 import br.com.usjt.juntos_por_todos.mapas.Mapa_Americares;
 import br.com.usjt.juntos_por_todos.mapas.Mapa_Cruz_Vermelha;
 import br.com.usjt.juntos_por_todos.mapas.Mapa_FeedingAmerica;
 import br.com.usjt.juntos_por_todos.mapas.Mapa_UTW;
+import br.com.usjt.juntos_por_todos.popups.TelaPopupAcnur;
 
 public class TelaOrganizacoesActivity extends AppCompatActivity {
 
@@ -55,7 +55,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         acnur.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_ACNUR.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, TelaPopupAcnur.class);
                 startActivity(intent);
                 finish();
             }

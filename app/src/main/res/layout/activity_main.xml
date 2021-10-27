@@ -11,9 +11,9 @@
         android:id="@+id/imageView"
         android:layout_width="323dp"
         android:layout_height="207dp"
-        android:gravity="center"
-        android:layout_marginTop="125dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="125dp"
+        android:gravity="center"
 
         android:src="@drawable/fundo_logo"
         tools:layout_editor_absoluteX="44dp"
@@ -26,7 +26,7 @@
         android:layout_marginTop="125dp"
         android:gravity="center"
 
-        android:src="@drawable/logo"
+        android:src="@drawable/logohelplife"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="129dp" />
 

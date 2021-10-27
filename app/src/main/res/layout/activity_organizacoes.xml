@@ -25,8 +25,8 @@
                 android:layout_width="72dp"
                 android:layout_height="65dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="12dp"
-                android:src="@drawable/logojuntos" />
+                android:layout_marginTop="15dp"
+                android:src="@drawable/logohelplife" />
 
 
             <TextView
