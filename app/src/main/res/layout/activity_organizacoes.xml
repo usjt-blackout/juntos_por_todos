@@ -26,7 +26,7 @@
                 android:layout_height="65dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
-                android:src="@drawable/logohelplife" />
+                android:src="@drawable/logo_helplife" />
 
 
             <TextView
@@ -70,7 +70,7 @@
                         android:layout_height="80dp"
                         android:layout_gravity="center"
                         android:clickable="true"
-                        android:src="@drawable/cruzvermelha" />
+                        android:src="@drawable/logo_cruzvermelha" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -94,7 +94,7 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:clickable="true"
-                        android:src="@drawable/acnur" />
+                        android:src="@drawable/logo_acnur" />
 
 
                 </LinearLayout>
@@ -120,7 +120,7 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:clickable="true"
-                        android:src="@drawable/unitedway" />
+                        android:src="@drawable/logo_unitedway" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -144,7 +144,7 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:clickable="true"
-                        android:src="@drawable/americares" />
+                        android:src="@drawable/logo_americares" />
 
                 </LinearLayout>
 
@@ -170,7 +170,7 @@
                         android:layout_height="86dp"
                         android:clickable="true"
                         android:focusable="true"
-                        android:src="@drawable/feeding" />
+                        android:src="@drawable/logo_feeding" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundnoticias"
     tools:context=".MainActivity">
 
 
@@ -25,17 +26,23 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/ancnur_1_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 1"
-                    android:textSize="25dp"/>
+                    android:text="@string/acnur_noticias_1"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_acnur1"
+
+                    />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -51,17 +58,19 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/uww_1_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 2"
-                    android:textSize="25dp" />
+                    android:text="@string/uww_noticias_1"
+                    android:textSize="18dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_uww1" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -77,17 +86,18 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/feed_1_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 3"
-                    android:textSize="25dp" />
+                    android:text="@string/feed_not_1"
+                    android:textSize="18dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:src="@drawable/not_feed1" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -103,44 +113,20 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/americares_1_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 4"
-                    android:textSize="25dp" />
+                    android:gravity="center"
+                    android:text="@string/americares_not_1"
+                    android:textSize="18dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            card_view:cardCornerRadius="3dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Titulo 5"
-                    android:textSize="25dp" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="105dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_americares1" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -157,17 +143,20 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/cruz_1_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 6"
-                    android:textSize="25dp"/>
+                    android:gravity="center"
+                    android:text="@string/cruz_not_1"
+                    android:textSize="18dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_cruz1" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -184,17 +173,21 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/anur_2_text"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 7"
-                    android:textSize="25dp" />
+                    android:text="@string/anur_not_2"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_acnur_2" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -211,17 +204,50 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/americares_2_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Titulo 8"
-                    android:textSize="25dp" />
+                    android:text="@string/americares_not_2"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/logohelplife" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_americares_2" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cruz_2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/cruz_not_2"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_cruz_2" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -229,26 +255,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            card_view:cardCornerRadius="3dp" />
+            card_view:cardCornerRadius="3dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Titulo 9"
-                android:textSize="25dp" />
+                <TextView
+                    android:id="@+id/uww_2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/uww_noticias_2"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="105dp"
-                android:layout_gravity="center"
-                android:src="@drawable/logohelplife" />
-        </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/not_uww_2" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
         <Button
             android:id="@+id/voltar"

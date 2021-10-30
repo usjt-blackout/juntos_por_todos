@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/background1">
+    android:background="@drawable/backgroundmain">
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,7 +15,7 @@
         android:layout_marginTop="125dp"
         android:gravity="center"
 
-        android:src="@drawable/fundo_logo"
+        android:src="@drawable/fundologomain"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="129dp" />
 
@@ -26,7 +26,7 @@
         android:layout_marginTop="125dp"
         android:gravity="center"
 
-        android:src="@drawable/logohelplife"
+        android:src="@drawable/logo_helplife"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="129dp" />
 

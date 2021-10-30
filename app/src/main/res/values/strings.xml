@@ -9,4 +9,38 @@
     <string name="mapa">Mapa</string>
     <string name="noticias">Notícias</string>
     <string name="site">Site</string>
+
+    <!--    Noticias    -->
+    <string name="acnur_noticias_1">
+        <a href="https://www.acnur.org/portugues/2021/10/21/acnur-e-parceiros-realizam-formacao-de-voluntarios-para-apoiar-o-registro-de-refugiados-em-sao-paulo/">
+            Entenda a formação de voluntários para apoiar o registro de refugiados em São Paulo.</a></string>
+
+    <string name="uww_noticias_1">
+        <a href="https://www.unitedway.org/blog/busting-human-trafficking-myths">Busting Human Trafficking Myths.</a></string>
+
+    <string name="uww_noticias_2">
+        <a href="https://www.unitedway.org/blog/extend-the-loving-power-of-moms2">Extend the Loving Power of Moms</a></string>
+
+    <string name="feed_not_1">
+          <a href="https://www.feedingamerica.org/hunger-blog/7-ways-help-during-hunger-action-month">6 ways to help during Hunger Action Month.</a></string>
+
+    <string name="americares_not_1">
+          <a href="https://www.americares.org/news/2021-0810-americares-and-zipline-deliver-medicines-and-medical-supplies-by-drone/"> More News
+        Americares and Zipline Deliver Medicines and Medical Supplies by Drone.</a></string>
+
+    <string name="cruz_not_1">
+        <a href="https://www.icrc.org/pt/document/primeiros-socorros-na-escola-uma-ferramenta-que-salva-vidas">O imenso poder de treinamento em primeiros socorros na escola:
+            uma ferramenta que salva e transforma vidas.</a></string>
+
+    <string name="cruz_not_2">
+        <a href="https://www.icrc.org/pt/document/precos-de-alimentos-disparam-e-geram-alto-risco-de-desnutricao-em-zonas-de-conflito">
+             Preços de alimentos disparam e geram alto risco de desnutrição em zonas de conflito</a></string>
+
+    <string name="anur_not_2">
+        <a href="https://www.acnur.org/portugues/2021/10/18/acnur-e-governo-federal-lancam-guia-e-portal-de-educacao-sobre-criancas-refugiadas/">
+            Guia para pais e educadores sobre integração de crianças e jovens refugiados nas escolas.</a></string>
+
+    <string name="americares_not_2">
+        <a href="https://www.americares.org/news/2021-0826-americares-emergency-airlift-arrives-in-haiti/">
+             Emergency Airlift Arrives in Haiti</a></string>
 </resources>
