@@ -112,6 +112,7 @@
                 android:textSize="18sp" />
 
             <TextView
+                android:id="@+id/noticia_cruz"
                 android:layout_width="wrap_content"
                 android:layout_height="31dp"
                 android:layout_alignStart="@+id/imageView"
@@ -129,6 +130,7 @@
                 android:textSize="18sp" />
 
             <TextView
+                android:id="@+id/doar_cruz"
                 android:layout_width="wrap_content"
                 android:layout_height="31dp"
                 android:layout_alignStart="@+id/imageView"

@@ -1,6 +1,7 @@
 package br.com.usjt.juntos_por_todos;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
@@ -47,6 +48,16 @@ public class TelaNoticiasActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        americares1.setLinkTextColor(Color.RED);
+        americares2.setLinkTextColor(Color.RED);
+        acnur1.setLinkTextColor(Color.RED);
+        acnur2.setLinkTextColor(Color.RED);
+        uww1.setLinkTextColor(Color.RED);
+        uww2.setLinkTextColor(Color.RED);
+        feed1.setLinkTextColor(Color.RED);
+        cruz1.setLinkTextColor(Color.RED);
+        cruz2.setLinkTextColor(Color.RED);
 
         acnur1.setOnClickListener(new View.OnClickListener() {
             @Override
