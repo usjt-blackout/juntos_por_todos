@@ -9,9 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.usjt.juntos_por_todos.R;
 import br.com.usjt.juntos_por_todos.TelaOrganizacoesActivity;
-import br.com.usjt.juntos_por_todos.mapas.Mapa_ACNUR;
+import br.com.usjt.juntos_por_todos.mapas.Mapa_FeedingAmerica;
 
-public class TelaPopupAcnur extends AppCompatActivity {
+public class TelaPopupFeeding extends AppCompatActivity {
 
     private TextView botaoMapa;
     private TextView botaoVoltar;
@@ -19,15 +19,14 @@ public class TelaPopupAcnur extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_popup_acnur);
+        setContentView(R.layout.activity_popup_feeding);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-
 
         botaoMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaPopupAcnur.this, Mapa_ACNUR.class);
+                Intent intent = new Intent(TelaPopupFeeding.this, Mapa_FeedingAmerica.class);
                 startActivity(intent);
                 finish();
             }
@@ -36,7 +35,7 @@ public class TelaPopupAcnur extends AppCompatActivity {
         botaoVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaPopupAcnur.this, TelaOrganizacoesActivity.class);
+                Intent intent = new Intent(TelaPopupFeeding.this, TelaOrganizacoesActivity.class);
                 startActivity(intent);
                 finish();
             }

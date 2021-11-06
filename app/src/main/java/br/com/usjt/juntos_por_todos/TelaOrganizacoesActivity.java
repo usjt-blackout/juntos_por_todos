@@ -8,18 +8,18 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import br.com.usjt.juntos_por_todos.mapas.Mapa_Americares;
-import br.com.usjt.juntos_por_todos.mapas.Mapa_Cruz_Vermelha;
-import br.com.usjt.juntos_por_todos.mapas.Mapa_FeedingAmerica;
-import br.com.usjt.juntos_por_todos.mapas.Mapa_UTW;
 import br.com.usjt.juntos_por_todos.popups.TelaPopupAcnur;
+import br.com.usjt.juntos_por_todos.popups.TelaPopupAmericares;
+import br.com.usjt.juntos_por_todos.popups.TelaPopupCruzVermelha;
+import br.com.usjt.juntos_por_todos.popups.TelaPopupFeeding;
+import br.com.usjt.juntos_por_todos.popups.TelaPopupUnited;
 
 public class TelaOrganizacoesActivity extends AppCompatActivity {
 
     private ImageView cruzVermelha;
     private ImageView acnur;
     private ImageView united;
-    private ImageView boys;
+    private ImageView feeding;
     private ImageView americares;
     private Button voltar;
 
@@ -30,14 +30,14 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         cruzVermelha = (ImageView) findViewById(R.id.cruz_vermelha_logo);
         acnur = (ImageView) findViewById(R.id.acnur_logo);
         united = (ImageView) findViewById(R.id.united_way_logo);
-        boys = (ImageView) findViewById(R.id.feeding_logo);
+        feeding = (ImageView) findViewById(R.id.feeding_logo);
         americares = (ImageView) findViewById(R.id.americares_logo);
         voltar = (Button) findViewById(R.id.voltar);
 
         cruzVermelha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_Cruz_Vermelha.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, TelaPopupCruzVermelha.class);
                 startActivity(intent);
                 finish();
             }
@@ -46,7 +46,7 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         americares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_Americares.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, TelaPopupAmericares.class);
                 startActivity(intent);
                 finish();
             }
@@ -64,15 +64,15 @@ public class TelaOrganizacoesActivity extends AppCompatActivity {
         united.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_UTW.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, TelaPopupUnited.class);
                 startActivity(intent);
                 finish();
             }
         });
-        boys.setOnClickListener(new View.OnClickListener() {
+        feeding.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaOrganizacoesActivity.this, Mapa_FeedingAmerica.class);
+                Intent intent = new Intent(TelaOrganizacoesActivity.this, TelaPopupFeeding.class);
                 startActivity(intent);
                 finish();
             }

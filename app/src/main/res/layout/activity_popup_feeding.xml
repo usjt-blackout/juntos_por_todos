@@ -17,7 +17,6 @@
             android:layout_width="410dp"
             android:layout_height="85dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="55dp"
             android:background="#C4C4C4"
             android:gravity="center">
 
@@ -26,7 +25,7 @@
                 android:layout_height="65dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="15dp"
-                android:src="@drawable/logohelplife" />
+                android:src="@drawable/logo_helplife" />
 
             <TextView
                 android:layout_width="336dp"
@@ -143,6 +142,7 @@
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
+
             <TextView
                 android:id="@+id/mapa"
                 android:layout_width="wrap_content"
@@ -150,17 +150,34 @@
                 android:layout_alignStart="@+id/imageView"
                 android:layout_alignTop="@+id/imageView"
                 android:layout_alignEnd="@+id/imageView"
-                android:layout_alignBottom="@+id/imageView"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="450dp"
                 android:layout_marginEnd="0dp"
-                android:layout_marginBottom="24dp"
                 android:background="#5E5E5E"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
                 android:text="@string/mapa"
                 android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/voltar"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="24dp"
+                android:background="#C4C4C4"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Voltar"
+                android:textColor="#000000"
                 android:textSize="18sp" />
 
 

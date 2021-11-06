@@ -35,15 +35,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".TelaOrganizacoesActivity" />
+        <activity android:name=".TelaNoticiasActivity" />
+
         <activity android:name=".mapas.Mapa_ACNUR" />
         <activity android:name=".mapas.Mapa_Cruz_Vermelha" />
         <activity android:name=".mapas.Mapa_FeedingAmerica" />
         <activity android:name=".mapas.Mapa_UTW" />
         <activity android:name=".mapas.Mapa_Americares" />
-        <activity android:name=".popups.TelaPopupAcnur" />
-        <activity android:name=".TelaNoticiasActivity" />
 
+        <activity android:name=".popups.TelaPopupAcnur" />
+        <activity android:name=".popups.TelaPopupCruzVermelha" />
+        <activity android:name=".popups.TelaPopupAmericares" />
+        <activity android:name=".popups.TelaPopupFeeding" />
+        <activity android:name=".popups.TelaPopupUnited" />
 
     </application>
 
