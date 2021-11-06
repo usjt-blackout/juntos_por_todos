@@ -33,7 +33,7 @@
                 android:layout_height="55dp"
                 android:layout_marginStart="80dp"
                 android:layout_marginTop="30dp"
-                android:text="Agência da ONU para Refugiados"
+                android:text="United Way Worldwide"
                 android:textColor="#616161"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -69,7 +69,7 @@
                 android:layout_marginBottom="423dp"
                 android:gravity="center"
                 android:background="#C4C4C4"
-                android:text="Agência da ONU para Refugiados (ACNUR)"
+                android:text="United Way Worldwide"
                 android:textColor="#000000"
                 android:textSize="18sp">
 
@@ -88,7 +88,7 @@
                 android:layout_marginBottom="160dp"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="@string/descricao_acnur"
+                android:text="A United Way of America, baseada em Alexandria, Virginia, é uma organização sem fins lucrativos com objetivo de garantir a filantropia às populações carentes nos Estados Unidos e em mais 36 países."
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
