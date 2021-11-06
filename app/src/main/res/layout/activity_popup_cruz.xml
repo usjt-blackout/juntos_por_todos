@@ -26,14 +26,17 @@
                 android:layout_height="65dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="15dp"
-                android:src="@drawable/logo_helplife" />
+                android:src="@drawable/logohelplife" />
 
             <TextView
                 android:layout_width="336dp"
                 android:layout_height="55dp"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="30dp"
-                android:text="Agência da ONU para Refugiados"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Comitê Internacional da Cruz Vermelha"
                 android:textColor="#616161"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -69,7 +72,7 @@
                 android:layout_marginBottom="423dp"
                 android:gravity="center"
                 android:background="#C4C4C4"
-                android:text="Agência da ONU para Refugiados (ACNUR)"
+                android:text="Comitê Internacional da Cruz Vermelha"
                 android:textColor="#000000"
                 android:textSize="18sp">
 
@@ -88,7 +91,7 @@
                 android:layout_marginBottom="160dp"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="@string/descricao_acnur"
+                android:text="O CICV é uma organização independente e neutra que assegura a proteção humanitária e a assistência às vítimas de conflitos armados e de outras situações de violência. Toma iniciativa em resposta a emergências e, ao mesmo tempo, promove o respeito ao Direito Internacional Humanitário (DIH) e a sua implementação na legislação nacional de um país."
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
