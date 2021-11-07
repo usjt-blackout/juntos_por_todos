@@ -25,7 +25,7 @@ public class TelaPopupAmericares extends AppCompatActivity {
         setContentView(R.layout.activity_popup_americares);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-        linkTextView = findViewById(R.id.noticia_americares);
+        linkTextView = findViewById(R.id.site_americares);
         linkDoar = findViewById(R.id.doar_americares);
 
         linkDoar.setOnClickListener(new View.OnClickListener() {

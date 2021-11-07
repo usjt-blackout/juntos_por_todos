@@ -25,7 +25,7 @@ public class TelaPopupAcnur extends AppCompatActivity {
         setContentView(R.layout.activity_popup_acnur);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-        linkTextView = findViewById(R.id.noticia_acnur);
+        linkTextView = findViewById(R.id.site_acnur);
         linkDoar = findViewById(R.id.doar_ac);
 
         linkDoar.setOnClickListener(new View.OnClickListener() {

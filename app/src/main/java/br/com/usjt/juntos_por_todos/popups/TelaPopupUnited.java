@@ -25,7 +25,7 @@ public class TelaPopupUnited extends AppCompatActivity {
         setContentView(R.layout.activity_popup_united);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-        linkTextView = findViewById(R.id.noticia_united);
+        linkTextView = findViewById(R.id.site_united);
         linkDoar = findViewById(R.id.doar_united);
 
 
@@ -44,7 +44,7 @@ public class TelaPopupUnited extends AppCompatActivity {
             public void onClick(View view) {
                 Intent viewIntent =
                         new Intent("android.intent.action.VIEW",
-                                Uri.parse("https://www.unitedway.org/#"));
+                                Uri.parse("https://www.unitedway.org/"));
                 startActivity(viewIntent);
             }
         });

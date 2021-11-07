@@ -25,7 +25,7 @@ public class TelaPopupCruzVermelha extends AppCompatActivity {
         setContentView(R.layout.activity_popup_cruz);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-        linkTextView = findViewById(R.id.noticia_cruz);
+        linkTextView = findViewById(R.id.site_cruz);
         linkDoar = findViewById(R.id.doar_cruz);
 
         linkDoar.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +43,7 @@ public class TelaPopupCruzVermelha extends AppCompatActivity {
             public void onClick(View view) {
                 Intent viewIntent =
                         new Intent("android.intent.action.VIEW",
-                                Uri.parse("https://www.icrc.org/pt"));
+                                Uri.parse("http://www.cruzvermelha.org.br/pb/"));
                 startActivity(viewIntent);
             }
         });

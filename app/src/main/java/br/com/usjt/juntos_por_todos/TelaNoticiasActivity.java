@@ -49,15 +49,15 @@ public class TelaNoticiasActivity extends AppCompatActivity {
             }
         });
 
-        americares1.setLinkTextColor(Color.RED);
-        americares2.setLinkTextColor(Color.RED);
-        acnur1.setLinkTextColor(Color.RED);
-        acnur2.setLinkTextColor(Color.RED);
-        uww1.setLinkTextColor(Color.RED);
-        uww2.setLinkTextColor(Color.RED);
-        feed1.setLinkTextColor(Color.RED);
-        cruz1.setLinkTextColor(Color.RED);
-        cruz2.setLinkTextColor(Color.RED);
+        americares1.setLinkTextColor(Color.BLUE);
+        americares2.setLinkTextColor(Color.BLUE);
+        acnur1.setLinkTextColor(Color.BLUE);
+        acnur2.setLinkTextColor(Color.BLUE);
+        uww1.setLinkTextColor(Color.BLUE);
+        uww2.setLinkTextColor(Color.BLUE);
+        feed1.setLinkTextColor(Color.BLUE);
+        cruz1.setLinkTextColor(Color.BLUE);
+        cruz2.setLinkTextColor(Color.BLUE);
 
         acnur1.setOnClickListener(new View.OnClickListener() {
             @Override

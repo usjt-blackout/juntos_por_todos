@@ -25,7 +25,7 @@ public class TelaPopupFeeding extends AppCompatActivity {
         setContentView(R.layout.activity_popup_feeding);
         botaoMapa = (TextView) findViewById(R.id.mapa);
         botaoVoltar = findViewById(R.id.voltar);
-        linkTextView = findViewById(R.id.noticia_feed);
+        linkTextView = findViewById(R.id.site_feed);
         linkDoar = findViewById(R.id.doar_feed);
 
         linkDoar.setOnClickListener(new View.OnClickListener() {
