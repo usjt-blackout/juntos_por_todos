@@ -32,7 +32,7 @@
                 android:layout_height="55dp"
                 android:layout_marginStart="80dp"
                 android:layout_marginTop="30dp"
-                android:text="Feeding America"
+                android:text="Organização"
                 android:textColor="#616161"
                 android:textSize="20sp" />
         </RelativeLayout>
